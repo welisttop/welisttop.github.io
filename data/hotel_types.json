@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "5 Star Hotel",
+    "slug": "5-star"
+  },
+  {
+    "id": 2,
+    "name": "4 Star Hotel",
+    "slug": "4-star"
+  },
+  {
+    "id": 3,
+    "name": "Budget Hotel",
+    "slug": "budget"
+  }
+]

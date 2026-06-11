@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "location_id": 1,
+    "name": "Old Digha",
+    "slug": "old-digha"
+  },
+  {
+    "id": 2,
+    "location_id": 1,
+    "name": "New Digha",
+    "slug": "new-digha"
+  },
+  {
+    "id": 3,
+    "location_id": 1,
+    "name": "Mohona",
+    "slug": "mohona"
+  },
+  {
+    "id": 4,
+    "location_id": 2,
+    "name": "Main Beach",
+    "slug": "main-beach"
+  }
+]
