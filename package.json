@@ -1,6 +1,9 @@
 {
   "name": "welist",
   "version": "1.0.0",
+  "scripts": {
+    "generate": "node scripts/generate.js"
+  },
   "dependencies": {
     "csv-parser": "^3.0.0"
   }

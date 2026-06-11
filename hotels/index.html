@@ -1,45 +1,29 @@
 ---
 layout: default
-title: Hotels
+title: All Hotels
 ---
 
-<section class="max-w-7xl mx-auto px-6 py-10">
-
+<section class="max-w-7xl mx-auto px-4 py-10">
   <h1 class="text-4xl font-bold mb-8">
-
-    Hotels
-
+    All Hotels
   </h1>
-
+  
   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-    {% for page in site.pages %}
-
-      {% if page.hotel_name %}
-
-      <a
-        href="{{ page.url }}"
-        class="bg-white rounded-2xl shadow p-6"
-      >
-
-        <h2 class="font-bold text-xl">
-
-          {{ page.hotel_name }}
-
+    {% assign hotels = site.pages | where_exp: "item", "item.hotel_name" | sort: "priority" | reverse %}
+    
+    {% for hotel in hotels %}
+      <a href="{{ hotel.url }}" 
+         class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
+        <h2 class="font-bold text-xl mb-2">
+          {{ hotel.hotel_name }}
         </h2>
-
-        <p class="text-gray-600 mt-2">
-
-          {{ page.address }}
-
+        <p class="text-gray-600 text-sm">
+          {{ hotel.address }}
         </p>
-
+        <p class="text-blue-600 mt-3 text-sm">
+          View Details →
+        </p>
       </a>
-
-      {% endif %}
-
     {% endfor %}
-
   </div>
-
 </section>

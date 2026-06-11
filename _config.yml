@@ -3,14 +3,10 @@ description: Hotel Directory
 baseurl: ""
 url: "https://welist.top"
 
-collections:
-  b:
-    output: true
-    permalink: /b/:name/
 
 defaults:
   - scope:
-      path: ""
-      type: "b"
+      path: "b/*"
     values:
       layout: hotel
+      permalink: /:path/
