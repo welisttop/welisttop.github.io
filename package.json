@@ -1,8 +1,7 @@
 {
-  "scripts": {
-    "validate": "node scripts/validate-data.js",
-    "generate": "node scripts/generate-pages.js",
-    "pagefind": "pagefind --site _site",
-    "build": "npm run validate && npm run generate && jekyll build && npm run pagefind"
+  "name": "welist",
+  "version": "1.0.0",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
   }
 }
