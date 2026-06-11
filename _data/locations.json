@@ -1,0 +1,97 @@
+[
+  {
+    "id": "india",
+    "name": "India",
+    "slug": "india",
+    "type": "country",
+    "parent": null
+  },
+
+  {
+    "id": "west-bengal",
+    "name": "West Bengal",
+    "slug": "west-bengal",
+    "type": "state",
+    "parent": "india"
+  },
+
+  {
+    "id": "odisha",
+    "name": "Odisha",
+    "slug": "odisha",
+    "type": "state",
+    "parent": "india"
+  },
+
+  {
+    "id": "digha",
+    "name": "Digha",
+    "slug": "digha",
+    "type": "city",
+    "parent": "west-bengal"
+  },
+
+  {
+    "id": "kolkata",
+    "name": "Kolkata",
+    "slug": "kolkata",
+    "type": "city",
+    "parent": "west-bengal"
+  },
+
+  {
+    "id": "howrah",
+    "name": "Howrah",
+    "slug": "howrah",
+    "type": "city",
+    "parent": "west-bengal"
+  },
+
+  {
+    "id": "siliguri",
+    "name": "Siliguri",
+    "slug": "siliguri",
+    "type": "city",
+    "parent": "west-bengal"
+  },
+
+  {
+    "id": "puri",
+    "name": "Puri",
+    "slug": "puri",
+    "type": "city",
+    "parent": "odisha"
+  },
+
+  {
+    "id": "old-digha",
+    "name": "Old Digha",
+    "slug": "old-digha",
+    "type": "area",
+    "parent": "digha"
+  },
+
+  {
+    "id": "new-digha",
+    "name": "New Digha",
+    "slug": "new-digha",
+    "type": "area",
+    "parent": "digha"
+  },
+
+  {
+    "id": "park-street",
+    "name": "Park Street",
+    "slug": "park-street",
+    "type": "area",
+    "parent": "kolkata"
+  },
+
+  {
+    "id": "salt-lake",
+    "name": "Salt Lake",
+    "slug": "salt-lake",
+    "type": "area",
+    "parent": "kolkata"
+  }
+]

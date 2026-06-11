@@ -1,0 +1,10 @@
+{
+  "required": [
+    "id",
+    "slug",
+    "name",
+    "category",
+    "location",
+    "contact"
+  ]
+}

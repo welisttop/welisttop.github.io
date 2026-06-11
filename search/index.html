@@ -1,0 +1,46 @@
+---
+layout: default
+title: Search Businesses
+description: Search businesses by name, category, city and area.
+---
+
+<section class="search-page">
+
+  <div class="container">
+
+    <div class="search-header">
+
+      <h1>
+        Search Businesses
+      </h1>
+
+      <p>
+        Find hotels, restaurants, clinics, salons, coaching centers and local services.
+      </p>
+
+    </div>
+
+    <div id="search"></div>
+
+  </div>
+
+</section>
+
+<link
+  href="/search/pagefind/pagefind-ui.css"
+  rel="stylesheet"
+>
+
+<script src="/search/pagefind/pagefind-ui.js"></script>
+
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+
+  new PagefindUI({
+    element: "#search",
+    showSubResults: true,
+    resetStyles: false
+  });
+
+});
+</script>

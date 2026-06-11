@@ -1,0 +1,30 @@
+title: WeList
+description: Professional business pages for local businesses
+url: "https://welist.top"
+baseurl: ""
+
+permalink: pretty
+
+markdown: kramdown
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - scripts
+
+collections:
+  businesses:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
+plugins: []
+
+sass:
+  style: compressed
